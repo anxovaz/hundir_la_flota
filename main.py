@@ -1,8 +1,4 @@
 #declaracion del tablero
-from bcc.tcp import flags2str
-from gi.overrides.Gtk import TreeModelRow
-
-
 def main():
     tablero = [[0,0,0,0,4],
                [0,1,0,0,4],
